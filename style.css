@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #f5ca56;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 2rem;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.banner .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #e63946;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pizza-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pizza-item img {
+    width: 150px; /* Largura fixa */
+    height: 100px; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem se encaixe sem distorção */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizza-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+}
+
+.pizza-item h3 {
+    font-size: 1.5rem;
+    color: #1b6312;
+}
+
+.pizza-item span {
+    font-weight: bold;
+    color: #555;
+}
+
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
