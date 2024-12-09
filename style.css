@@ -66,26 +66,26 @@ header nav ul li a {
     font-weight: bold;
 }
 
-.menu {
+.cardapio {
     padding: 2rem;
     background: #f9f9f9;
     text-align: center;
 }
 
-.menu h2 {
+.cardapio h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.pizza-list {
+.cardapio .pizza-list {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 20px;
 }
 
 .pizza-item img {
-    width: 150px; /* Largura fixa */
-    height: 100px; /* Altura fixa */
+    width: 200px; /* Largura fixa */
+    height: 250px; /* Altura fixa */
     object-fit: cover; /* Garante que a imagem se encaixe sem distorção */
     border-radius: 5px;
     margin-bottom: 10px;
@@ -94,20 +94,24 @@ header nav ul li a {
     margin-right: auto;
 }
 
-.pizza-item {
+.cardapio .pizza-item {
+    display: flex;
+    width: 150px;
+    height: 100px;
     background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
     padding: 1rem;
     width: 300px;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.pizza-item h3 {
+.cardapio .pizza-item h3 {
+    height: 10px;
     font-size: 1.5rem;
     color: #1b6312;
 }
 
-.pizza-item span {
+.cardapio .pizza-item span {
     font-weight: bold;
     color: #555;
 }
@@ -115,6 +119,7 @@ header nav ul li a {
 .contact {
     padding: 2rem;
     text-align: center;
+    color: #555;
 }
 
 footer {
